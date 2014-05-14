@@ -1,0 +1,50 @@
+AC <= 0
+AC <= AC + 1
+AC <= AC + DR
+AC <= AC & DR
+AC <= AC not
+AC <= DR
+AC <= shift AC left
+AC <= shift AC right
+AC(0) <= E
+AC(0-7) <= INPR
+AC(15) <= E
+AR <= 0
+AR <= AR + 1
+AR <= IR(0-11)
+AR <= MEM[AR]
+AR <= PC
+D0 ... D7 <= decode IR(12-14)
+DR <= DR + 1
+DR <= MEM[AR]
+E <= 0
+E <= AC(0)
+E <= AC(15)
+E <= Cout
+E <= E not
+FGI <= 0
+FGO <= 0
+I <= IR(15)
+IEN <= 0
+IEN <= 1
+IR <= MEM[AR]
+MEM[AR] <= AC
+MEM[AR] <= DR
+MEM[AR] <= PC
+MEM[AR] <= TR
+OUTR <= AC(0-7)
+PC <= 0
+PC <= AR
+PC <= PC + 1
+R <= 0
+R <= 1
+S <= 0
+SC <= 0
+TR <= PC
+if (AC = 0) then (PC <= PC + 1)
+if (AC(15) = 0) then (PC <= PC + 1)
+if (AC(15) = 1) then (PC <= PC + 1)
+if (DR = 0) then (PC <= PC + 1)
+if (E = 0) then (PC <= PC + 1)
+if (FGI = 1) then (PC <= PC + 1)
+if (FGO = 1) then (PC <= PC + 1)

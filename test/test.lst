@@ -1,0 +1,31 @@
+1                           			ORG		0
+2       0    (000)   412C   			BUN		MAIN
+3                           	
+4                           	; MAIN PROGRAM STARTS FROM 300
+5                           			ORG		300
+6       300  (12C)   A137   	MAIN:	LDA		ARR		I
+7       301  (12D)   6137   			ISZ		ARR
+8       302  (12E)   6136   			ISZ		I
+9                           	
+10      303  (12F)   9137   	LOOP,	ADD		ARR		I	; LOOP FOR COMPUTING THE SUM
+11      304  (130)   6137   			ISZ		ARR
+12      305  (131)   6136   			ISZ		I
+13      306  (132)   412F   			BUN		LOOP
+14                          	
+15      307  (133)   3138   			STA		SUM
+16      308  (134)   F400   			OUT
+17      309  (135)   7001   			HLT
+18                          	
+19                          	; DATA PART OF THE PROGRAM
+20      310  (136)   FFFB   	I:		DEC		-5
+21      311  (137)   01F4   	ARR:	DEC		500
+22      312  (138)   0000   	SUM:	DEC		0
+23                          	
+24                          			ORG		500
+25      500  (1F4)   0001   			DEC		1
+26      501  (1F5)   0002   			DEC		2
+27      502  (1F6)   0003   			DEC		3
+28      503  (1F7)   0004   			DEC		4
+29      504  (1F8)   0005   			DEC		5
+30                          	
+31                          			END					; AND WE REACH THE END
