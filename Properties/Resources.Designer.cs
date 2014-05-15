@@ -1,7 +1,7 @@
 ﻿/*************************************************************************
  *                                                                       *
  * This file is a part of the BSIM project: The Basic Computer Simulator *
- * Copyright (C) 2014, Nima Alamatsaz, All rights reserved               *
+ * Copyright (C) 2012-2014, Nima Alamatsaz, All rights reserved          *
  * Email: nnalamat@gmail.com                                             *
  * Web:   http://github.com/nalamat/bsim                                 *
  *                                                                       *
