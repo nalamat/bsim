@@ -5,9 +5,9 @@
  * Email: nnalamat@gmail.com                                             *
  * Web:   http://github.com/nalamat/bsim                                 *
  *                                                                       *
- * BSIM is free software: you can redistribute it and/or modify it       *
- * under the terms of the GNU General Public License version 3 as        *
- * published by the Free Software Foundation.                            *
+ * BSIM is free software: you can redistribute the software              *
+ * and/or modify it under the terms of the GNU General Public License    *
+ * version 3 as published by the Free Software Foundation.               *
  *                                                                       *
  * BSIM is distributed in the hope that it will be useful,               *
  * but WITHOUT ANY WARRANTY; without even the implied warranty of        *
