@@ -85,8 +85,8 @@ namespace bsim
 			// 
 			// btnNextCycle
 			// 
-			this.btnNextCycle.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.btnNextCycle.Location = new System.Drawing.Point(98, 51);
+			this.btnNextCycle.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.btnNextCycle.Location = new System.Drawing.Point(98, 53);
 			this.btnNextCycle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.btnNextCycle.Name = "btnNextCycle";
 			this.btnNextCycle.Size = new System.Drawing.Size(133, 28);
@@ -98,10 +98,10 @@ namespace bsim
 			// 
 			// lblAR
 			// 
-			this.lblAR.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblAR.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblAR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblAR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblAR.Location = new System.Drawing.Point(323, 80);
+			this.lblAR.Location = new System.Drawing.Point(323, 68);
 			this.lblAR.Name = "lblAR";
 			this.lblAR.Size = new System.Drawing.Size(147, 50);
 			this.lblAR.TabIndex = 1;
@@ -111,10 +111,10 @@ namespace bsim
 			// 
 			// lblPC
 			// 
-			this.lblPC.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblPC.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblPC.BackColor = System.Drawing.Color.LightBlue;
 			this.lblPC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblPC.Location = new System.Drawing.Point(323, 130);
+			this.lblPC.Location = new System.Drawing.Point(323, 118);
 			this.lblPC.Name = "lblPC";
 			this.lblPC.Size = new System.Drawing.Size(147, 50);
 			this.lblPC.TabIndex = 2;
@@ -124,10 +124,10 @@ namespace bsim
 			// 
 			// lblDR
 			// 
-			this.lblDR.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblDR.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblDR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblDR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblDR.Location = new System.Drawing.Point(323, 180);
+			this.lblDR.Location = new System.Drawing.Point(323, 168);
 			this.lblDR.Name = "lblDR";
 			this.lblDR.Size = new System.Drawing.Size(147, 50);
 			this.lblDR.TabIndex = 3;
@@ -137,10 +137,10 @@ namespace bsim
 			// 
 			// lblIR
 			// 
-			this.lblIR.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblIR.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblIR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblIR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblIR.Location = new System.Drawing.Point(323, 330);
+			this.lblIR.Location = new System.Drawing.Point(323, 318);
 			this.lblIR.Name = "lblIR";
 			this.lblIR.Size = new System.Drawing.Size(147, 50);
 			this.lblIR.TabIndex = 6;
@@ -150,10 +150,10 @@ namespace bsim
 			// 
 			// lblINPR
 			// 
-			this.lblINPR.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblINPR.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblINPR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblINPR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblINPR.Location = new System.Drawing.Point(323, 280);
+			this.lblINPR.Location = new System.Drawing.Point(323, 268);
 			this.lblINPR.Name = "lblINPR";
 			this.lblINPR.Size = new System.Drawing.Size(147, 50);
 			this.lblINPR.TabIndex = 5;
@@ -163,10 +163,10 @@ namespace bsim
 			// 
 			// lblAC
 			// 
-			this.lblAC.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblAC.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblAC.BackColor = System.Drawing.Color.LightBlue;
 			this.lblAC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblAC.Location = new System.Drawing.Point(323, 230);
+			this.lblAC.Location = new System.Drawing.Point(323, 218);
 			this.lblAC.Name = "lblAC";
 			this.lblAC.Size = new System.Drawing.Size(147, 50);
 			this.lblAC.TabIndex = 4;
@@ -176,10 +176,10 @@ namespace bsim
 			// 
 			// lblTR
 			// 
-			this.lblTR.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblTR.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblTR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblTR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblTR.Location = new System.Drawing.Point(323, 380);
+			this.lblTR.Location = new System.Drawing.Point(323, 368);
 			this.lblTR.Name = "lblTR";
 			this.lblTR.Size = new System.Drawing.Size(147, 50);
 			this.lblTR.TabIndex = 7;
@@ -189,10 +189,10 @@ namespace bsim
 			// 
 			// lblOUTR
 			// 
-			this.lblOUTR.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblOUTR.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblOUTR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblOUTR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblOUTR.Location = new System.Drawing.Point(323, 430);
+			this.lblOUTR.Location = new System.Drawing.Point(323, 418);
 			this.lblOUTR.Name = "lblOUTR";
 			this.lblOUTR.Size = new System.Drawing.Size(147, 50);
 			this.lblOUTR.TabIndex = 8;
@@ -202,8 +202,8 @@ namespace bsim
 			// 
 			// btnLoadFile
 			// 
-			this.btnLoadFile.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.btnLoadFile.Location = new System.Drawing.Point(98, 17);
+			this.btnLoadFile.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.btnLoadFile.Location = new System.Drawing.Point(98, 19);
 			this.btnLoadFile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.btnLoadFile.Name = "btnLoadFile";
 			this.btnLoadFile.Size = new System.Drawing.Size(133, 28);
@@ -222,10 +222,10 @@ namespace bsim
 			// 
 			// lblMemFile
 			// 
-			this.lblMemFile.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblMemFile.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblMemFile.BackColor = System.Drawing.Color.Aqua;
 			this.lblMemFile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblMemFile.Location = new System.Drawing.Point(19, 117);
+			this.lblMemFile.Location = new System.Drawing.Point(19, 119);
 			this.lblMemFile.Name = "lblMemFile";
 			this.lblMemFile.Size = new System.Drawing.Size(290, 63);
 			this.lblMemFile.TabIndex = 10;
@@ -235,10 +235,10 @@ namespace bsim
 			// 
 			// lblSC
 			// 
-			this.lblSC.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblSC.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblSC.BackColor = System.Drawing.Color.LightBlue;
 			this.lblSC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblSC.Location = new System.Drawing.Point(323, 30);
+			this.lblSC.Location = new System.Drawing.Point(323, 18);
 			this.lblSC.Name = "lblSC";
 			this.lblSC.Size = new System.Drawing.Size(147, 50);
 			this.lblSC.TabIndex = 11;
@@ -248,8 +248,8 @@ namespace bsim
 			// 
 			// btnNextInstruction
 			// 
-			this.btnNextInstruction.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.btnNextInstruction.Location = new System.Drawing.Point(98, 83);
+			this.btnNextInstruction.Anchor = System.Windows.Forms.AnchorStyles.Left;
+			this.btnNextInstruction.Location = new System.Drawing.Point(98, 85);
 			this.btnNextInstruction.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.btnNextInstruction.Name = "btnNextInstruction";
 			this.btnNextInstruction.Size = new System.Drawing.Size(133, 28);
@@ -261,23 +261,23 @@ namespace bsim
 			// 
 			// lblMicros
 			// 
-			this.lblMicros.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblMicros.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblMicros.BackColor = System.Drawing.Color.Aqua;
 			this.lblMicros.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblMicros.Location = new System.Drawing.Point(19, 255);
+			this.lblMicros.Location = new System.Drawing.Point(19, 257);
 			this.lblMicros.Name = "lblMicros";
-			this.lblMicros.Size = new System.Drawing.Size(290, 129);
+			this.lblMicros.Size = new System.Drawing.Size(290, 100);
 			this.lblMicros.TabIndex = 14;
 			this.lblMicros.Text = "lblMicros";
-			this.lblMicros.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+			this.lblMicros.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.lblMicros.UseCompatibleTextRendering = true;
 			// 
 			// lblCurInstruction
 			// 
-			this.lblCurInstruction.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblCurInstruction.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblCurInstruction.BackColor = System.Drawing.Color.Aqua;
 			this.lblCurInstruction.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblCurInstruction.Location = new System.Drawing.Point(19, 186);
+			this.lblCurInstruction.Location = new System.Drawing.Point(19, 188);
 			this.lblCurInstruction.Name = "lblCurInstruction";
 			this.lblCurInstruction.Size = new System.Drawing.Size(290, 63);
 			this.lblCurInstruction.TabIndex = 15;
@@ -287,10 +287,10 @@ namespace bsim
 			// 
 			// lblI
 			// 
-			this.lblI.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblI.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblI.BackColor = System.Drawing.Color.LightBlue;
 			this.lblI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblI.Location = new System.Drawing.Point(34, 392);
+			this.lblI.Location = new System.Drawing.Point(34, 363);
 			this.lblI.Name = "lblI";
 			this.lblI.Size = new System.Drawing.Size(65, 50);
 			this.lblI.TabIndex = 16;
@@ -300,10 +300,10 @@ namespace bsim
 			// 
 			// lblS
 			// 
-			this.lblS.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblS.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblS.BackColor = System.Drawing.Color.LightBlue;
 			this.lblS.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblS.Location = new System.Drawing.Point(99, 392);
+			this.lblS.Location = new System.Drawing.Point(99, 363);
 			this.lblS.Name = "lblS";
 			this.lblS.Size = new System.Drawing.Size(65, 50);
 			this.lblS.TabIndex = 17;
@@ -313,10 +313,10 @@ namespace bsim
 			// 
 			// lblE
 			// 
-			this.lblE.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblE.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblE.BackColor = System.Drawing.Color.LightBlue;
 			this.lblE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblE.Location = new System.Drawing.Point(164, 392);
+			this.lblE.Location = new System.Drawing.Point(164, 363);
 			this.lblE.Name = "lblE";
 			this.lblE.Size = new System.Drawing.Size(65, 50);
 			this.lblE.TabIndex = 18;
@@ -326,10 +326,10 @@ namespace bsim
 			// 
 			// lblR
 			// 
-			this.lblR.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblR.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblR.Location = new System.Drawing.Point(229, 392);
+			this.lblR.Location = new System.Drawing.Point(229, 363);
 			this.lblR.Name = "lblR";
 			this.lblR.Size = new System.Drawing.Size(65, 50);
 			this.lblR.TabIndex = 19;
@@ -339,10 +339,10 @@ namespace bsim
 			// 
 			// lblIEN
 			// 
-			this.lblIEN.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblIEN.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblIEN.BackColor = System.Drawing.Color.LightBlue;
 			this.lblIEN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblIEN.Location = new System.Drawing.Point(67, 442);
+			this.lblIEN.Location = new System.Drawing.Point(67, 413);
 			this.lblIEN.Name = "lblIEN";
 			this.lblIEN.Size = new System.Drawing.Size(65, 50);
 			this.lblIEN.TabIndex = 20;
@@ -352,10 +352,10 @@ namespace bsim
 			// 
 			// lblFGI
 			// 
-			this.lblFGI.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblFGI.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblFGI.BackColor = System.Drawing.Color.LightBlue;
 			this.lblFGI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblFGI.Location = new System.Drawing.Point(132, 442);
+			this.lblFGI.Location = new System.Drawing.Point(132, 413);
 			this.lblFGI.Name = "lblFGI";
 			this.lblFGI.Size = new System.Drawing.Size(65, 50);
 			this.lblFGI.TabIndex = 21;
@@ -365,10 +365,10 @@ namespace bsim
 			// 
 			// lblFGO
 			// 
-			this.lblFGO.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.lblFGO.Anchor = System.Windows.Forms.AnchorStyles.Left;
 			this.lblFGO.BackColor = System.Drawing.Color.LightBlue;
 			this.lblFGO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblFGO.Location = new System.Drawing.Point(197, 442);
+			this.lblFGO.Location = new System.Drawing.Point(197, 413);
 			this.lblFGO.Name = "lblFGO";
 			this.lblFGO.Size = new System.Drawing.Size(65, 50);
 			this.lblFGO.TabIndex = 22;
@@ -381,7 +381,9 @@ namespace bsim
 			this.grdMem.AllowUserToAddRows = false;
 			this.grdMem.AllowUserToDeleteRows = false;
 			this.grdMem.AllowUserToResizeRows = false;
-			this.grdMem.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.grdMem.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.grdMem.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
 			dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
 			dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
@@ -413,7 +415,7 @@ namespace bsim
 			this.grdMem.RowHeadersWidth = 30;
 			this.grdMem.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
 			this.grdMem.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.grdMem.Size = new System.Drawing.Size(560, 493);
+			this.grdMem.Size = new System.Drawing.Size(560, 462);
 			this.grdMem.TabIndex = 25;
 			// 
 			// colAddress
@@ -456,7 +458,7 @@ namespace bsim
 			// MainForm
 			// 
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-			this.ClientSize = new System.Drawing.Size(1057, 518);
+			this.ClientSize = new System.Drawing.Size(1057, 487);
 			this.Controls.Add(this.grdMem);
 			this.Controls.Add(this.lblFGO);
 			this.Controls.Add(this.lblFGI);
