@@ -76,7 +76,7 @@ namespace bsim
 
 		public bool LoadFile(string file)
 		{
-			ushort[] keepMem = (ushort[])mem.Clone();
+			var keepMem = (ushort[])mem.Clone();
 
 			if (LoadFileHEX(file) || LoadFileLST(file) || LoadFileOBJ(file))
 			{
@@ -97,7 +97,7 @@ namespace bsim
 
 			try
 			{
-				FileStream stream = File.OpenRead(file);
+				var stream = File.OpenRead(file);
 
 				for (i = 0; i < mem_size; ++i)
 					mem[i] = (ushort)((byte)stream.ReadByte() | (byte)stream.ReadByte() << 8);
@@ -119,7 +119,7 @@ namespace bsim
 
 		public List<string> NextCycle()
 		{
-			List<string> micros = new List<string>();
+			var micros = new List<string>();
 
 			if (!cur.S)
 			{
@@ -127,7 +127,7 @@ namespace bsim
 				return micros;
 			}
 
-			SimState next = cur.Clone();
+			var next = cur.Clone();
 			next.SC = (ushort)(cur.SC + 1);
 
 			// fetch
@@ -431,9 +431,9 @@ namespace bsim
 		// based on cloning simulation state and memory
 		public List<string> GetNextCycle()
 		{
-			SimState keepState = cur.Clone();
-			ushort[] keepMem = (ushort[])mem.Clone();
-			List<string> micros = this.NextCycle();
+			var keepState = cur.Clone();
+			var keepMem = (ushort[])mem.Clone();
+			var micros = this.NextCycle();
 			cur = keepState;
 			mem = keepMem;
 			return micros;
@@ -443,7 +443,7 @@ namespace bsim
 		// much faster than the first one but harder to manage the code
 		public List<string> GetNextCycle2()
 		{
-			List<string> micros = new List<string>();
+			var micros = new List<string>();
 
 			if (!cur.S)
 			{
@@ -669,7 +669,7 @@ namespace bsim
 		{
 			do
 			{
-				this.NextCycle();
+				NextCycle();
 			}
 			while (cur.SC != 0 && cur.S);
 		}
