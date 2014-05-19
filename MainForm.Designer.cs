@@ -49,8 +49,8 @@ namespace bsim
         /// </summary>
         private void InitializeComponent()
         {
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.btnNextCycle = new System.Windows.Forms.Button();
 			this.lblAR = new System.Windows.Forms.Label();
 			this.lblPC = new System.Windows.Forms.Label();
@@ -101,7 +101,6 @@ namespace bsim
 			this.lblAR.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblAR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblAR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblAR.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblAR.Location = new System.Drawing.Point(323, 80);
 			this.lblAR.Name = "lblAR";
 			this.lblAR.Size = new System.Drawing.Size(147, 50);
@@ -115,7 +114,6 @@ namespace bsim
 			this.lblPC.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblPC.BackColor = System.Drawing.Color.LightBlue;
 			this.lblPC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblPC.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblPC.Location = new System.Drawing.Point(323, 130);
 			this.lblPC.Name = "lblPC";
 			this.lblPC.Size = new System.Drawing.Size(147, 50);
@@ -129,7 +127,6 @@ namespace bsim
 			this.lblDR.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblDR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblDR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblDR.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblDR.Location = new System.Drawing.Point(323, 180);
 			this.lblDR.Name = "lblDR";
 			this.lblDR.Size = new System.Drawing.Size(147, 50);
@@ -143,7 +140,6 @@ namespace bsim
 			this.lblIR.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblIR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblIR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblIR.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblIR.Location = new System.Drawing.Point(323, 330);
 			this.lblIR.Name = "lblIR";
 			this.lblIR.Size = new System.Drawing.Size(147, 50);
@@ -157,7 +153,6 @@ namespace bsim
 			this.lblINPR.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblINPR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblINPR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblINPR.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblINPR.Location = new System.Drawing.Point(323, 280);
 			this.lblINPR.Name = "lblINPR";
 			this.lblINPR.Size = new System.Drawing.Size(147, 50);
@@ -171,7 +166,6 @@ namespace bsim
 			this.lblAC.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblAC.BackColor = System.Drawing.Color.LightBlue;
 			this.lblAC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblAC.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblAC.Location = new System.Drawing.Point(323, 230);
 			this.lblAC.Name = "lblAC";
 			this.lblAC.Size = new System.Drawing.Size(147, 50);
@@ -185,7 +179,6 @@ namespace bsim
 			this.lblTR.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblTR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblTR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblTR.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblTR.Location = new System.Drawing.Point(323, 380);
 			this.lblTR.Name = "lblTR";
 			this.lblTR.Size = new System.Drawing.Size(147, 50);
@@ -199,7 +192,6 @@ namespace bsim
 			this.lblOUTR.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblOUTR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblOUTR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblOUTR.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblOUTR.Location = new System.Drawing.Point(323, 430);
 			this.lblOUTR.Name = "lblOUTR";
 			this.lblOUTR.Size = new System.Drawing.Size(147, 50);
@@ -246,7 +238,6 @@ namespace bsim
 			this.lblSC.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblSC.BackColor = System.Drawing.Color.LightBlue;
 			this.lblSC.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblSC.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblSC.Location = new System.Drawing.Point(323, 30);
 			this.lblSC.Name = "lblSC";
 			this.lblSC.Size = new System.Drawing.Size(147, 50);
@@ -299,7 +290,6 @@ namespace bsim
 			this.lblI.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblI.BackColor = System.Drawing.Color.LightBlue;
 			this.lblI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblI.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblI.Location = new System.Drawing.Point(34, 392);
 			this.lblI.Name = "lblI";
 			this.lblI.Size = new System.Drawing.Size(65, 50);
@@ -313,7 +303,6 @@ namespace bsim
 			this.lblS.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblS.BackColor = System.Drawing.Color.LightBlue;
 			this.lblS.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblS.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblS.Location = new System.Drawing.Point(99, 392);
 			this.lblS.Name = "lblS";
 			this.lblS.Size = new System.Drawing.Size(65, 50);
@@ -327,7 +316,6 @@ namespace bsim
 			this.lblE.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblE.BackColor = System.Drawing.Color.LightBlue;
 			this.lblE.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblE.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblE.Location = new System.Drawing.Point(164, 392);
 			this.lblE.Name = "lblE";
 			this.lblE.Size = new System.Drawing.Size(65, 50);
@@ -341,7 +329,6 @@ namespace bsim
 			this.lblR.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblR.BackColor = System.Drawing.Color.LightBlue;
 			this.lblR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblR.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblR.Location = new System.Drawing.Point(229, 392);
 			this.lblR.Name = "lblR";
 			this.lblR.Size = new System.Drawing.Size(65, 50);
@@ -355,7 +342,6 @@ namespace bsim
 			this.lblIEN.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblIEN.BackColor = System.Drawing.Color.LightBlue;
 			this.lblIEN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblIEN.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblIEN.Location = new System.Drawing.Point(67, 442);
 			this.lblIEN.Name = "lblIEN";
 			this.lblIEN.Size = new System.Drawing.Size(65, 50);
@@ -369,7 +355,6 @@ namespace bsim
 			this.lblFGI.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblFGI.BackColor = System.Drawing.Color.LightBlue;
 			this.lblFGI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblFGI.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblFGI.Location = new System.Drawing.Point(132, 442);
 			this.lblFGI.Name = "lblFGI";
 			this.lblFGI.Size = new System.Drawing.Size(65, 50);
@@ -383,7 +368,6 @@ namespace bsim
 			this.lblFGO.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.lblFGO.BackColor = System.Drawing.Color.LightBlue;
 			this.lblFGO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.lblFGO.Font = new System.Drawing.Font("Comic Sans MS", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.lblFGO.Location = new System.Drawing.Point(197, 442);
 			this.lblFGO.Name = "lblFGO";
 			this.lblFGO.Size = new System.Drawing.Size(65, 50);
@@ -399,14 +383,14 @@ namespace bsim
 			this.grdMem.AllowUserToResizeRows = false;
 			this.grdMem.Anchor = System.Windows.Forms.AnchorStyles.Top;
 			this.grdMem.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-			dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-			dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-			dataGridViewCellStyle1.Font = new System.Drawing.Font("Comic Sans MS", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-			dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-			dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.grdMem.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+			dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+			dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+			dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+			dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+			dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.grdMem.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
 			this.grdMem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.grdMem.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colAddress,
@@ -414,14 +398,14 @@ namespace bsim
             this.colCodeHex,
             this.colCodeBin,
             this.colInstruction});
-			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-			dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-			dataGridViewCellStyle2.Font = new System.Drawing.Font("Comic Sans MS", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-			dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.grdMem.DefaultCellStyle = dataGridViewCellStyle2;
+			dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+			dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+			dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+			dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+			dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.grdMem.DefaultCellStyle = dataGridViewCellStyle4;
 			this.grdMem.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
 			this.grdMem.Location = new System.Drawing.Point(481, 11);
 			this.grdMem.MultiSelect = false;
@@ -498,7 +482,7 @@ namespace bsim
 			this.Controls.Add(this.lblAR);
 			this.Controls.Add(this.btnNextCycle);
 			this.DoubleBuffered = true;
-			this.Font = new System.Drawing.Font("Comic Sans MS", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+			this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
 			this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.Name = "MainForm";
 			this.Text = "The Basic Computer Simulator";
