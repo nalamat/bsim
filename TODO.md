@@ -1,4 +1,6 @@
 - [ ] Add a computer reset button
+- [ ] Open intel hex file format
+- [ ] Open list file
 - [ ] Enable memory editing via grid view
 - [ ] Improve the appearance
   - [ ] Change the backcolor of RegisterBox
