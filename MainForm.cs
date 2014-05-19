@@ -46,17 +46,6 @@ namespace bsim
 
 		}
 
-		class test
-		{
-			public int a;
-			public int b;
-			public test(int a, int b)
-			{
-				this.a = a;
-				this.b = b;
-			}
-		};
-
 		private void btnNextCycle_Click(object sender, EventArgs e)
 		{
 			sim.NextCycle();
