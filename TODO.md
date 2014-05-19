@@ -1,4 +1,5 @@
 - [ ] Add a computer reset button
+- [ ] Enable memory editing via grid view
 - [ ] Improve the appearance
   - [ ] Change the backcolor of RegisterBox
   - [ ] Chnage the backcolor of label boxes
