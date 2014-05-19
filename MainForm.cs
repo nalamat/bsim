@@ -27,6 +27,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 
 namespace bsim
 {
@@ -43,7 +44,7 @@ namespace bsim
 
 		private void frmMain_Load(object sender, EventArgs e)
 		{
-
+			openFileDialog.InitialDirectory = Application.StartupPath;
 		}
 
 		private void btnNextCycle_Click(object sender, EventArgs e)
