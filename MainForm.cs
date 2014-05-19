@@ -50,13 +50,13 @@ namespace bsim
 		private void btnNextCycle_Click(object sender, EventArgs e)
 		{
 			sim.NextCycle();
-			this.SimUpdate();
+			SimUpdate();
 		}
 
 		private void btnNextInstruction_Click(object sender, EventArgs e)
 		{
 			sim.NextInstruction();
-			this.SimUpdate();
+			SimUpdate();
 		}
 
 		private void btnLoadFile_Click(object sender, EventArgs e)
@@ -68,7 +68,7 @@ namespace bsim
 				return;
 			}
 
-			this.SimUpdate();
+			SimUpdate();
 		}
 
 		private void SimInit()
@@ -116,7 +116,7 @@ namespace bsim
 
 			lblMemFile.Text = (sim.memFile == "" ? "No memory file loaded" : "Memory File:\n" + sim.memFile);
 			lblCurInstruction.Text = "Current Instruction:\n" + sim.GetCurInstruction();
-			List<string> micros = sim.GetNextCycle();
+			var micros = sim.GetNextCycle();
 			if (micros.Count == 0) micros.Add("None");
 			lblMicros.Text = "Next Cycle Micro-Operation(s):\n" + string.Join("\n", micros);
 		}
