@@ -1,0 +1,4 @@
+- [ ] Add a computer reset button
+- [ ] Improve the appearance
+  - [ ] Change the backcolor of RegisterBox
+  - [ ] Chnage the backcolor of label boxes
